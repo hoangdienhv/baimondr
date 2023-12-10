@@ -1,0 +1,107 @@
+<script src="js/control.js"></script><script src="js/control.js"></script>@charset "utf-8";
+/* CSS Document */
+
+.top-bar{
+	width: 100%;height: 50px;line-height: 50px;background-color:#086EA7;color:#677B1E;
+}
+.top-bar a{
+	
+	color: white;
+}
+.top-bar a:hover{
+	color: aquamarine;
+}
+.navbar .navbar-nav .nav-item .nav.link{
+	padding: 10px 20px; border-radius: 8px;
+}
+.navbar .navbar-nav .nav-item .nav.link:hover{
+	background-color: beige;color: #EC1B1E
+}
+.navbar .navbar-nav .nav-item .dropdown-menu{
+	background-color:#E4C1C1;padding-bottom: 0px;padding-top: 0px;width: 220px;
+}
+.navbar .navbar-nav .nav-item .dropdown-menu .dropdown-item{
+	color: white;
+}
+.navbar .navbar-nav .nav-item .dropdown-menu .dropdown-item:hover{
+	background-color: #2F2929;padding-left: 25px;transition: all 0.7s
+}
+.navbar .navbar-nav .nav-item .dropdown-menu li{
+	border-bottom: 1px dotted white
+}
+main{
+	width: 100%;min-height: 800px;
+}
+footer{
+	width: 100%;
+	min-height: 300px;
+	color: white;background-color:
+		#067A1A
+}
+.gach-chan{
+	border-bottom: 1px solid #DD383B
+}
+footer .navbar-nav 	.nav-item .nav-link:hover{
+	color:aquamarine;}
+
+
+.bottom-bar{
+	width: 100%;height: 60px; line-height: 60px;color: white;
+}
+.banner{
+	
+	
+}
+
+#service a{
+	color:#EF1014;text-decoration:none;
+	
+}
+#service a:hover{
+	color: aqua;
+}
+#why{
+	width: 100%;min-height: 350px;background: url("../images/why.jpg");background-repeat: no-repeat;background-position: top center; background-size: cover
+}
+#client .hinh{
+	width: 100%;position: relative;
+}
+#client .truoc{
+	position: absolute;left:0;top: 0;padding: 5px;background-color: rgba(197,50,52,1.00);
+}
+#client .sau{
+	position: absolute;left:50%;top: 0;padding: 5px;background-color: rgba(197,50,52,1.00);
+}
+#banner{
+	min-height: 300px;width: 100%;background: url("../images/pageheader.png")
+}
+.text-trang{
+	color:white
+}
+.ban-do{
+	width: 100%;
+}
+#cam-nhan .noidung img{
+	width: 100px; height: 100px;
+}
+#cam-nhan .noidung{
+	display: flex; flex-direction: column;justify-content: center;align-items: center;
+}
+#cam-nhan .vienvang{
+	border: 3px solid #B4373A;padding: 2px;
+}
+#cn .owl-nav{
+	position:absolute;left: 0px;top: 23%;width: 100%
+}
+#cn .owl-nav[class *='owl-']{
+	font-size: 40px;color:#DB1518
+}
+#cn .owl-nav .owl-next{ position: absolute;right:5%
+	
+}
+#cn .owl-nav .owl-prev{ position: absolute;left:5%
+	
+}
+#cn .owl-nav[class *='owl-']:hover{
+	background:none;border: none;color: aqua;text-decoration: none
+}
